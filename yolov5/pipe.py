@@ -40,7 +40,7 @@ def turn_slightly():
     stop()
 
 # === YOLO MODEL LOADING ===
-model = torch.hub.load('.', 'custom', path='gcpc_model.pt', source='local')
+model = torch.hub.load('.', 'custom', path='pipe_model.pt', source='local')
 model.conf = 0.5
 
 # === DEPTHAI PIPELINE TO CONNECT CAMERA TO TURTLEBOT===
