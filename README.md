@@ -37,10 +37,11 @@ This project assumes that:
 2. Install dependencies:
     pip install -r requirements.txt
 
-3. Run the script on your robot
+3. Run the script on your robot:
     python3 yolov5/pipe.py
 
 🎓 Research Use Case
+
 This project was built for use by the Civil Engineering department at UTA to explore autonomous inspection of PVC, concrete, and metal pipes.
 
 🤖 Hardware
@@ -49,8 +50,10 @@ This project was built for use by the Civil Engineering department at UTA to exp
 - OAK-D camera
 
 📷 Dataset
-Custom dataset of ~18,000 annotated pipe images (metal, concrete, some PVC)
-Trained using YOLOv5 with 10 epochs
+
+- Custom dataset of ~18,000 annotated pipe images (metal, concrete, some PVC)
+- Trained using YOLOv5 with 10 epochs
 
 🧠 Model
+
 YOLOv5 (pipe_model.pt)
