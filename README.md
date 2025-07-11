@@ -29,8 +29,8 @@ crack_detector/
 
 3. Run the script on your robot
     python3 yolov5/pipe.py
-🎓 Research Use Case
 
+🎓 Research Use Case
 This project was built for use by the Civil Engineering department at UTA to explore autonomous inspection of PVC, concrete, and metal pipes.
 
 🤖 Hardware
