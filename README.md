@@ -14,9 +14,9 @@ crack_detector/
 
 ├── yolov5/
 
-│ ├── pipe.py # Main Python script
+│    ├── pipe.py # Main Python script
 
-│ └── pipe_model.pt # Trained YOLOv5 model
+│    └── pipe_model.pt # Trained YOLOv5 model
 
 ├── requirements.txt
 
