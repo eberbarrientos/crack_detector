@@ -1,0 +1,5 @@
+rclpy
+torch
+depthai
+opencv-python
+numpy
