@@ -1,4 +1,4 @@
-# Crack Detector for Civil Engineering Pipes
+# Crack Detector for pipes
 
 This project uses a TurtleBot4 equipped with an OAK-D camera and a YOLOv5 deep learning model to detect cracks in civil engineering pipes (e.g. concrete, metal, PVC). When a crack is detected, the robot stops, saves an image, and resumes autonomous movement.
 
