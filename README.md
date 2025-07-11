@@ -13,9 +13,19 @@ This project uses a TurtleBot4 equipped with an OAK-D camera and a YOLOv5 deep l
 crack_detector/
 ├── yolov5/
 │ ├── pipe.py # Main Python script
-│ └── gcpc_model.pt # Trained YOLOv5 model
+│ └── pipe_model.pt # Trained YOLOv5 model
 ├── requirements.txt
 └── README.md
+
+## Requirements
+
+- ROS 2 Humble (for `rclpy`, `geometry_msgs`)
+- DepthAI-compatible camera (like OAK-D) configured via DepthAI SDK
+- Python packages (see `requirements.txt`)
+
+This project assumes that:
+- The robot is configured to move using `/cmd_vel`
+- The DepthAI camera is properly set up and streaming
 
 ## 🚀 How to Run
 
