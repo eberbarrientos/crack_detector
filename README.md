@@ -32,6 +32,13 @@ This project assumes that:
 - The robot is configured to move using `/cmd_vel`
 - The DepthAI camera is properly set up and streaming
 
+## 📦 Model Weights
+
+Download the trained YOLOv5 model for crack detection here:
+
+- 🔗 https://drive.google.com/file/d/1fJFDjmr2ymGeb7JehBq-PMvYtP1FWyu4/view?usp=share_link
+After downloading, place it in the 'yolov5/' directory of the project.
+
 ## 🚀 How to Run
 
 1. Clone the repository:
