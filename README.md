@@ -11,10 +11,15 @@ This project uses a TurtleBot4 equipped with an OAK-D camera and a YOLOv5 deep l
 ## 📁 Project Structure
 
 crack_detector/
+
 ├── yolov5/
+
 │ ├── pipe.py # Main Python script
+
 │ └── pipe_model.pt # Trained YOLOv5 model
+
 ├── requirements.txt
+
 └── README.md
 
 ## Requirements
