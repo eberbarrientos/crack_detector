@@ -47,9 +47,11 @@ After downloading, place it in the 'yolov5/' directory of the project.
    cd crack_detector
 
 2. Install dependencies:
+    ``` bash
     pip install -r requirements.txt
 
 3. Run the script on your robot:
+   ```bash
     python3 yolov5/pipe.py
 
 🎓 Research Use Case
